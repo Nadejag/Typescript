@@ -1,20 +1,15 @@
-// //console.log(2===2);
-// //console.log("qa");
-// let A="apple";
-// const B="ball";
-// var C="cat";
-// A="apple1";
-// var C="cat2";
-// //const B="ball2";
-// console.log(A);
-// console.log(B);
-// console.log(C);
-let x=10;
-if(x===10){
-    let A="apple";
-const B="ball";
- var C="cat";
-//
-console.log(A);
-}
-console.log(A);
+//Day2 challange
+
+//Question1
+console.log("Albert Einstein " + " once said, “A person who never made a mistake never tried anything new." );
+
+//Question2
+let personname:string="Albert Einstein ";
+let quote:string=" once said, “A person who never made a mistake never tried anything new.";
+console.log(`${personname}`+`${quote}`);
+
+//Question3
+let Name: string = "\t\n Asharib \t\n"; 
+console.log(Name); 
+console.log(Name.trim());//trim use for clear whispace
+
